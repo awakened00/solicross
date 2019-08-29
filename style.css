@@ -1,0 +1,23 @@
+.pile{
+  float:left;
+  border:red solid 2px;
+  height:40px;
+  width:20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img.card{
+  height:100px;
+    width:70px;
+  }
+img.discard{
+  height:100px;
+  }
+td{width:70px}
+tr{height:100px}
+.deck{height:100px;
+  width:72px;
+border:3px green double}
